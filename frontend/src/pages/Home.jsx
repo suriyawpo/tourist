@@ -1,4 +1,4 @@
-import img from "./assets/bg2.jpg";
+import img from "./assets/bg.jpg";
 import { FaSearch } from "react-icons/fa";
 const Home = () => {
     return (
@@ -6,17 +6,20 @@ const Home = () => {
             style={{
                 backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(${img})`
             }}
-            className="h-[700px] bg-right font-prime"
+            className="relative h-[700px] md:bg-right bg-top font-prime"
         >
             <div className="container">
                 <div className="flex justify-between items-center text-white py-3">
                     <p className="text-3xl text-third font-semibold font-second">
-                        Tourist
+                        <span class="text-white">
+                            Touri
+                        </span>
+                        sm
                     </p>
-                    <div className="space-x-20 hidden md:block">
+                    <div className="space-x-10 hidden text-lg md:block ">
                         <a
                             href=""
-                            className=""
+                            className="hover:text-blue-800"
                         >
                             Home
                         </a>
@@ -34,9 +37,9 @@ const Home = () => {
                         </a>
                         <a
                             href=""
-                            className=""
+                            className="bg-[orange] rounded-md py-1 px-4"
                         >
-                            Contact
+                            Book Now
                         </a>
                     </div>
                 </div>
@@ -63,15 +66,16 @@ const Home = () => {
                         memories that
                         last a lifetime.
                     </p>
-                    <div className="relative md:w-1/2 mx-auto ">
+                    <div className="relative z-30 md:w-1/2 mx-auto ">
                         <input
                             className="w-full py-2 px-3 rounded-full   text-black  outline-none"
                             placeholder="Search your destination"
                         />
-                        <FaSearch className="h-10 w-12 p-1 rounded-r-full text-white  absolute top-0 right-0 bg-third" />
+                        <FaSearch className="h-10 w-12 p-1 pr-2 rounded-r-full text-white text-md  absolute top-0 right-0 bg-third" />
                     </div>
                 </div>
             </div>
+            <div class="absolute bottom-0 -z-[0]"></div>
         </div>
     );
 };
