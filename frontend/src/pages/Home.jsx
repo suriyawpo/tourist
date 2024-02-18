@@ -1,22 +1,22 @@
 import img from "./assets/bg2.jpg";
-
+import { FaSearch } from "react-icons/fa";
 const Home = () => {
     return (
         <div
             style={{
-                backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(${img})`
+                backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(${img})`
             }}
-            className="h-[700px] bg-right"
+            className="h-[700px] bg-right font-prime"
         >
             <div className="container">
                 <div className="flex justify-between items-center text-white py-3">
-                    <p className="text-5xl text-yellow-400 font-semibold">
+                    <p className="text-3xl text-third font-semibold font-second">
                         Tourist
                     </p>
-                    <div className="space-x-20 text-lg font-medium">
+                    <div className="space-x-20 hidden md:block">
                         <a
                             href=""
-                            className="hover:text-blue-700"
+                            className=""
                         >
                             Home
                         </a>
@@ -42,30 +42,33 @@ const Home = () => {
                 </div>
                 <div class="mt-[200px] text-white text-center capitalize space-y-10">
                     {" "}
-                    <p class="text-5xl font-bold">
+                    <p class="text-5xl font-bold font-second">
                         your dream
                         vacation awaits
                     </p>
-                    <p class="text-lg font-m ">
-                        Your journey
-                        begins here.
-                        Start planning
-                        your escape to <br />
-                        [Your
-                        Destination] and
-                        let the magic
-                        unfold.
-                        Discover,
-                        experience, and
-                        create memories
-                        that will last a
-                        lifetime."{" "}
+                    <p class="">
+                        Explore the
+                        wonders of our
+                        enchanting
+                        destination!
+                        Immerse yourself
+                        in rich history,
+                        breathtaking
+                        landscapes, and
+                        vibrant
+                        cultures. Plan
+                        your next
+                        adventure with
+                        us and create
+                        memories that
+                        last a lifetime.
                     </p>
-                    <div className="">
+                    <div className="relative md:w-1/2 mx-auto ">
                         <input
-                            className="rounded-full px-3 py-2 w-1/2 outline-none border-black shadow shadow-amber-400"
-                            placeholder="  Search your favourite places"
+                            className="w-full py-2 px-3 rounded-full   text-black  outline-none"
+                            placeholder="Search your destination"
                         />
+                        <FaSearch className="h-10 w-12 p-1 rounded-r-full text-white  absolute top-0 right-0 bg-third" />
                     </div>
                 </div>
             </div>
