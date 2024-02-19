@@ -12,7 +12,7 @@ const About = () => {
                     </span>
                 </p>
                 <div class="flex flex-col items-center  md:flex-row">
-                    <div class="shape overflow-visible flex-2 p-12 pl-20  ">
+                    <div class="shape overflow-visible flex-1 p-12 pl-20  ">
                         <img
                             src={img}
                             alt=""
@@ -58,10 +58,10 @@ const About = () => {
                             lasting
                             memories.
                         </p>
-                        <p class=" text-xl font-semibold text-black my-6">
+                        <p class="hidden text-xl font-semibold text-black my-6">
                             Our Mission
                         </p>
-                        <p class="">
+                        <p class="hidden">
                             Our mission
                             is simple
                             yet
