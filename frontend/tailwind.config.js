@@ -16,11 +16,10 @@ export default {
                 ]
             },
             colors: {
-                primary: "#01051e",
-                "primary-light":
-                    "#050a33",
+                primary: "#201e1e",
                 secondary: "#0174BE",
-                third: "#ffA500"
+                third: "green",
+                thirdh: "#ffA500"
             }
         },
         container: {

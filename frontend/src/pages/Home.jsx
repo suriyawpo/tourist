@@ -1,4 +1,4 @@
-import img from "./assets/bg.jpg";
+import img from "./assets/bg2.jpg";
 import { FaSearch } from "react-icons/fa";
 const Home = () => {
     return (
@@ -16,7 +16,7 @@ const Home = () => {
                         </span>
                         sm
                     </p>
-                    <div className="space-x-10 hidden text-lg md:block ">
+                    <div className="space-x-10 hidden font-semibold  md:block ">
                         <a
                             href=""
                             className="hover:text-blue-800"
@@ -37,13 +37,13 @@ const Home = () => {
                         </a>
                         <a
                             href=""
-                            className="bg-[orange] rounded-md py-1 px-4"
+                            className="bg-[orange] rounded-md py-2 px-4"
                         >
                             Book Now
                         </a>
                     </div>
                 </div>
-                <div class="mt-[200px] text-white text-center capitalize space-y-10">
+                <div class="mt-28 md:mt-[200px] text-white text-center capitalize space-y-10">
                     {" "}
                     <p class="text-5xl font-bold font-second">
                         your dream
@@ -71,7 +71,7 @@ const Home = () => {
                             className="w-full py-2 px-3 rounded-full   text-black  outline-none"
                             placeholder="Search your destination"
                         />
-                        <FaSearch className="h-10 w-12 p-1 pr-2 rounded-r-full text-white text-md  absolute top-0 right-0 bg-third" />
+                        <FaSearch className="h-10 w-12 p-2 pr-2 rounded-r-full text-white text-md  absolute top-0 right-0 bg-third" />
                     </div>
                 </div>
             </div>
