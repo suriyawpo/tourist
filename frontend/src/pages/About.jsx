@@ -11,14 +11,14 @@ const About = () => {
                         Us
                     </span>
                 </p>
-                <div class="flex flex-col items-center gap-8 md:flex-row">
-                    <div class="shape overflow-visible flex-1 p-12 pl-20  ">
+                <div class="flex flex-col items-center  md:flex-row">
+                    <div class="shape overflow-visible flex-2 p-12 pl-20  ">
                         <img
                             src={img}
                             alt=""
                         />
                     </div>
-                    <div class="flex-1 p-4">
+                    <div class=" flex-1 p-4">
                         <p class="text-xl font-semibold mb-6">
                             welcome to
                             <p className="text-3xl font-semibold font-second">
@@ -58,10 +58,10 @@ const About = () => {
                             lasting
                             memories.
                         </p>
-                        <p class="hidden text-xl font-semibold text-black my-6">
+                        <p class=" text-xl font-semibold text-black my-6">
                             Our Mission
                         </p>
-                        <p class="hidden">
+                        <p class="">
                             Our mission
                             is simple
                             yet
