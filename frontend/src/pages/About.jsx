@@ -1,9 +1,9 @@
 import React from "react";
 import img from "./assets/girl2.jpg";
-import bg from "./assets/bg3.webp";
+
 const About = () => {
     return (
-        <div class=" bg-white bg-no-repeat bg-cover text-whie">
+        <div class="bg-stone-100">
             <div class="container py-12">
                 <p class="text-3xl text-center font-bold mb-4">
                     About{" "}
@@ -12,7 +12,7 @@ const About = () => {
                     </span>
                 </p>
                 <div class="flex flex-col items-center gap-8 md:flex-row">
-                    <div class="flex-1">
+                    <div class="shape overflow-visible flex-1 p-12 pl-20  ">
                         <img
                             src={img}
                             alt=""
@@ -21,11 +21,11 @@ const About = () => {
                     <div class="flex-1 p-4">
                         <p class="text-xl font-semibold mb-6">
                             welcome to
-                            <p className="text-3xl text-third font-semibold font-second">
-                                <span class="">
-                                    Touri
+                            <p className="text-3xl font-semibold font-second">
+                                Touri
+                                <span class="text-third">
+                                    sm
                                 </span>
-                                sm
                             </p>
                         </p>
                         <p class="">
