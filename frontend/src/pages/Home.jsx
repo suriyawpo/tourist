@@ -6,7 +6,7 @@ const Home = () => {
             style={{
                 backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(${img})`
             }}
-            className="relative h-[700px] md:bg-right bg-top font-prime"
+            className="relative h-[650px] bg-bottom md:bg-cover font-prime"
         >
             <div className="container">
                 <div className="flex justify-between items-center text-white py-3">
@@ -37,13 +37,13 @@ const Home = () => {
                         </a>
                         <a
                             href=""
-                            className="bg-[orange] rounded-md py-2 px-4"
+                            className="bg-third rounded-md py-2 px-4"
                         >
                             Book Now
                         </a>
                     </div>
                 </div>
-                <div class="mt-28 md:mt-[200px] text-white text-center capitalize space-y-10">
+                <div class="mt-28 md:mt-[150px] text-white text-center capitalize space-y-10">
                     {" "}
                     <p class="text-5xl font-bold font-second">
                         your dream

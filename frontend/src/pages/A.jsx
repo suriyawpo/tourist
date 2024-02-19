@@ -1,10 +1,11 @@
 import React from "react";
 import img from "./assets/girl1.webp";
+
 const App = () => {
     return (
-        <div class="">
-            <div className="container my-12 ">
-                <div class="relative">
+        <div class="bg-stone-500 py-4">
+            <div className="container my-4">
+                <div class="relative ">
                     <img
                         src={img}
                         alt=""
@@ -39,9 +40,7 @@ const App = () => {
                             Read more
                         </button>
                     </div>
-                    <div
-                        class=" p-8 shadow-lg bg-white md:hidden"
-                    >
+                    <div class=" p-8 shadow-lg bg-white md:hidden">
                         <p class="text-2xl font-bold capitalize">
                             we provide
                             best tour

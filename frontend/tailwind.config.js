@@ -11,14 +11,13 @@ export default {
                     "Montserrat",
                     "sans-serif"
                 ],
-                second: [
-                    "Permanent marker"
-                ]
+                second: ["Sriracha"],
+                third:["Permanent Marker"]
             },
             colors: {
                 primary: "#201e1e",
                 secondary: "#0174BE",
-                third: "green",
+                third: "red",
                 thirdh: "#ffA500"
             }
         },

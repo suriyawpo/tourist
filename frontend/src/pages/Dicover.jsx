@@ -24,7 +24,7 @@ const App = () => {
                             />
                         </div>
                         <div class="p-3 ">
-                            <p class="text-third font-bold text-lg">
+                            <p class=" font-bold text-lg">
                                 Explore
                                 beautiful
                                 destinations
@@ -64,7 +64,7 @@ const App = () => {
                             />
                         </div>
                         <div class="p-3 ">
-                            <p class="text-third font-bold text-lg">
+                            <p class=" font-bold text-lg">
                                 Action
                                 packed
                                 experience
@@ -101,7 +101,7 @@ const App = () => {
                             />
                         </div>
                         <div class="p-3 ">
-                            <p class="text-third font-bold text-lg">
+                            <p class=" font-bold text-lg">
                                 Local
                                 guides
                             </p>

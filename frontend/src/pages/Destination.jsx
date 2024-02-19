@@ -61,7 +61,7 @@ const App = () => {
                         )
                     )}
                 </div>
-                <div class="text-center mt-4">
+                <div class="text-right mt-4">
                     <button class="bg-third px-2 py-1 mt-4 rounded-md text-white">
                         Explore more
                     </button>
