@@ -12,19 +12,21 @@ export default {
                     "sans-serif"
                 ],
                 second: ["Sriracha"],
-                third:["Permanent Marker"]
+                third: [
+                    "Permanent Marker"
+                ]
             },
             colors: {
                 primary: "#201e1e",
                 secondary: "#0174BE",
-                third: "red",
-                thirdh: "#ffA500"
+                third: "green",
+                thirdh: "green"
             }
         },
         container: {
             center: true,
             padding: {
-                DEFAULT: "50px"
+                DEFAULT: "15px"
             }
         }
     },
