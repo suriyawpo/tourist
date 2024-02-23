@@ -14,7 +14,6 @@ const App = () => {
             <Design />
             <About />
             <Destination />
-
             <A />
             <Discover />
             <Footer />

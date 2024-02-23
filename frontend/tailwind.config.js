@@ -20,7 +20,8 @@ export default {
                 primary: "#201e1e",
                 secondary: "#0174BE",
                 third: "green",
-                thirdh: "green"
+                thirdh: "green",
+                four: "                #646efc"
             }
         },
         container: {

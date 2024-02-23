@@ -1,5 +1,6 @@
 import React from "react";
 import Dest from "./Dest";
+import bg from "./assets/bg.jpg";
 import australia from "./assets/Australia.jpg";
 import bermuda from "./assets/Bermuda.jpg";
 import colombia from "./assets/Colombia.jpg";
@@ -36,8 +37,11 @@ const destinations = [
 
 const App = () => {
     return (
-        <div className="">
-            <div className="container my-12">
+        <div
+            
+            className="bg-cover "
+        >
+            <div className="container py-10">
                 <p className="capitalize text-center font-bold text-3xl font-se">
                     explore top
                     <span className="text-third ml-1">
